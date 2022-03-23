@@ -512,6 +512,78 @@ a {
   color: rgba(51, 51, 51, 0.5);
 }
 
+.no-webp .events__inner {
+  background-image: url(../../img/events/events-bg.jpg); }
+
+.events__inner {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.events__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.events__img-name-box {
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 100%;
+  background-color: #000000;
+}
+
+.events__img-name-box--left {
+  right: 0;
+}
+
+.events__img-name-box--right {
+  left: 0;
+}
+
+.events__img-name {
+  display: block;
+  font-family: Banny;
+  font-size: 24px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.events__img-name--left {
+  margin-top: 60px;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.events__img-name--right {
+  margin-top: 400px;
+  -webkit-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.events__text {
+  text-align: center;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.images-events {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .link-btn {
   display: inline-block;
   text-transform: uppercase;
@@ -605,3 +677,5 @@ a {
 .webp .team { background-image: url(../../img/team/team-bg.webp); }
 
 .webp .galery { background-image: url(../../img/galery/galery-bg.webp); }
+
+.webp .events__inner { background-image: url(../../img/events/events-bg.webp); }
