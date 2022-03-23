@@ -1,0 +1,22 @@
+.menu {
+  color: $black;
+  text-align: center;
+}
+
+.menu__subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+
+.menu__buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.menu__btn {
+  background-color: transparent;
+  border: none;
+}

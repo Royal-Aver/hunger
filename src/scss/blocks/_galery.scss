@@ -1,0 +1,30 @@
+.galery {
+  background-image: url(../../img/galery/galery-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.swiper-slide {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.swiper__img-square {
+  margin-right: 80px;
+}
+
+.swiper-pagination {
+  bottom: 0;
+}
+
+.swiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: $grey;
+  margin: 0 20px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: $white;
+}

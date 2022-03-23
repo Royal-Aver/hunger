@@ -1,0 +1,14 @@
+.team {
+  background-image: url(../../img/team/team-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.team__container {
+  display: flex;
+}
+
+.team__content {
+  margin-right: 70px;
+}

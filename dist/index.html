@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css?_v=20220319143859" />
+    <link rel="stylesheet" href="css/style.min.css?_v=20220319143859">
+    <title>"Главная""</title>
+</head>
+
+<body>
+    <header class="header">
+    <div class="header__container container">
+        <nav class="header__menu">
+            <ul class="header__list">
+                <li class="header__item">
+                    <a class="header__link" href="#">
+                        home
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a class="header__link" href="#">
+                        about
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a class="header__link" href="#">
+                        team
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a class="header__link" href="#">
+                        booking
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <img class="header__logo" src="../img/header/logo.svg" alt="logo">
+
+        <nav class="header__menu">
+            <ul class="header__list">
+                <li class="header__item">
+                    <a class="header__link" href="#">
+                        menu
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a class="header__link" href="#">
+                        galerie
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a class="header__link" href="#">
+                        events
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a class="header__link" href="#">
+                        contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <main class="main">
+        <section class="hero">
+  <div class="hero__container container">
+    <div class="hero__working-hours working-hours">
+      <picture><source srcset="../img/hero/clock-working.webp" type="image/webp"><img class="working-hours__img" src="../img/hero/clock-working.png" alt=""></picture>
+    </div>
+
+    <div class="hero__content content-hero">
+      <p class="content-hero__text">
+        restaurant
+      </p>
+      <h1 class="content-hero__title title">
+        hungry people
+      </h1>
+      <a class="content-hero__link link-btn" href="#">
+        book table
+      </a>
+      <a class="content-hero__link link-btn" href="#">
+        explore
+      </a>
+    </div>
+
+    <ul class="hero__social social">
+      <li class="social__item">
+        <a class="social__link" href="#">
+          <img src="../img/hero/instagramm.svg" alt="" class="social__icon">
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link" href="#">
+          <img src="../img/hero/facebook.svg" alt="" class="social__icon">
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link" href="#">
+          <img src="../img/hero/twitter.svg" alt="" class="social__icon">
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+        <section class="about section">
+  <div class="about__container container">
+    <div class="about__content text-content text-content--black">
+      <h2 class="text-content__title title">
+        about us
+      </h2>
+      <p class="text-content__subtitle">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+      </p>
+      <div class="text-content__text">
+        <p>
+          Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+        </p>
+      </div>
+    </div>
+
+    <div class="about__img img-square img-square--right">
+      <picture><source srcset="../img/about/about-img.webp" type="image/webp"><img class="img-square__image " src="../img/about/about-img.jpg" alt=""></picture>
+    </div>
+  </div>
+</section>
+        <section class="team section">
+  <h2 class="team__title title-small">
+    our team
+  </h2>
+  <div class="team__container container">
+    <div class="team__content img-square img-square--left">
+      <picture><source srcset="../img/team/team-img.webp" type="image/webp"><img class="img-square__image " src="../img/team/team-img.jpg" alt=""></picture>
+    </div>
+
+    <div class="team__content text-content text-content--white">
+      <h2 class="text-content__title title">
+        master chef
+      </h2>
+      <p class="text-content__subtitle">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+      </p>
+      <div class="text-content__text">
+        <p>
+          Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+        <section class="book-table section">
+  <div class="book-table__container container">
+    <div class="book-table__content">
+      <h2 class="book-table__title title">
+        book a table
+      </h2>
+
+      <form class="book-table__form form-book" action="#">
+        <div class="form-book__box">
+          <input type="text" class="form-book__input" name="username" placeholder="Name">
+          <input type="text" class="form-book__input" name="email" placeholder="Email">
+          <input type="text" class="form-book__input" name="userphone" placeholder="Phone">
+          <select class="form-book__input form-book__select" name="people">
+            <option value="" disabled selected>People</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="1">4</option>
+            <option value="2">5</option>
+            <option value="3">6</option>
+            <option value="1">7</option>
+            <option value="2">8</option>
+            <option value="3">9</option>
+            <option value="1">10</option>
+            <option value="2">more than 10 people</option>
+          </select>
+          <input type="text" class="form-book__input" name="date" placeholder="Date (mm/dd)l">
+
+          <select class="form-book__input form-book__select" name="time">
+            <option value="" disabled selected>Time</option>
+            <option value="1">8PM</option>
+            <option value="2">8.30PM</option>
+            <option value="3">9PM</option>
+            <option value="1">9.30PM</option>
+            <option value="2">10PM</option>
+            <option value="3">10.30PM</option>
+            <option value="1">11.00PM</option>
+            <option value="2">11.30PM</option>
+            <option value="3">00.00AM</option>
+            <option value="1">00.30AM</option>
+            <option value="1">01.00AM</option>
+            <option value="1">01.30AM</option>
+            <option value="1">02.00AM</option>
+            <option value="1">02.30AM</option>
+          </select>
+        </div>
+        <button class="form-book__btn link-btn" type="submit">book now</button>
+      </form>
+    </div>
+
+    <div class="about__img img-square img-square--right">
+      <picture><source srcset="../img/book-table/book-table-img.webp" type="image/webp"><img class="img-square__image " src="../img/book-table/book-table-img.jpg" alt=""></picture>
+    </div>
+  </div>
+
+  <div class="about__clock-working">
+    <p>
+      Mon - Fri: <span class="about__color-working-color">8PM - 10PM,</span>  Sat - Sun: <span class="about__color-working-color">8PM - 3AM,</span>  Phone: <span class="about__color-working-color">+40 729 131 637/+40 726 458 782</span>
+    </p>
+  </div>
+</section>
+        <section class="galery section">
+  <h2 class="title-small">
+    galery
+  </h2>
+
+  <div class="galery__swiper swiper">
+    <div class="swiper__wrapper swiper-wrapper">
+      <div class="swiper__slide swiper-slide">
+        <div class="swiper__img-square img-square--left">
+          <picture><source srcset="../img/galery/galery-img.webp" type="image/webp"><img class="img-square__image " src="../img/galery/galery-img.jpg" alt=""></picture>
+        </div>
+
+        <div class="swiper__content text-content text-content--white">
+          <h2 class="text-content__title title">
+            chocolate pancakes
+          </h2>
+          <p class="text-content__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+            magna.
+          </p>
+          <div class="text-content__text">
+            <p>
+              Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed
+              dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris
+              tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper__slide swiper-slide">
+        <div class="swiper__img-square img-square--left">
+          <picture><source srcset="../img/galery/galery-img.webp" type="image/webp"><img class="img-square__image " src="../img/galery/galery-img.jpg" alt=""></picture>
+        </div>
+
+        <div class="swiper__content text-content text-content--white">
+          <h2 class="text-content__title title">
+            chocolate pancakes
+          </h2>
+          <p class="text-content__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+            magna.
+          </p>
+          <div class="text-content__text">
+            <p>
+              Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed
+              dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris
+              tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper__slide swiper-slide">
+        <div class="swiper__img-square img-square--left">
+          <picture><source srcset="../img/galery/galery-img.webp" type="image/webp"><img class="img-square__image " src="../img/galery/galery-img.jpg" alt=""></picture>
+        </div>
+
+        <div class="swiper__content text-content text-content--white">
+          <h2 class="text-content__title title">
+            chocolate pancakes
+          </h2>
+          <p class="text-content__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+            magna.
+          </p>
+          <div class="text-content__text">
+            <p>
+              Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed
+              dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris
+              tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+        <section class="menu section">
+  <div class="menu__container container">
+    <h2 class="menu__title title">
+      delicious menu
+    </h2>
+    <p class="menu__subtitle">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+    </p>
+
+  <div class="menu__buttons">
+    <button class="menu__btn">
+      soupe
+    </button>
+    <button class="menu__btn">
+      pizza
+    </button>
+    <button class="menu__btn">
+      pasta
+    </button>
+    <button class="menu__btn">
+      desert
+    </button>
+    <button class="menu__btn">
+      wine
+    </button>
+    <button class="menu__btn">
+      beer
+    </button>
+    <button class="menu__btn">
+      drinks
+    </button>
+  </div>
+
+  <ul class="menu__list">
+    <li class="menu__item">
+      <a class="menu__link" href="" >
+        <span class="menu__name">
+          PIZZA QUATRO STAGIONI
+        </span>
+        <span class="menu__points">
+          . . . .
+        </span>
+        <span class="menu__cost">
+          55,68 USD
+        </span>
+        <span class="menu__descr">
+          Integer ullamcorper neque eu purus euismod
+        </span>
+    </a>
+    </li>
+
+    <li class="menu__item">
+      <a class="menu__link" href="" >
+        <span class="menu__name">
+          PIZZA QUATRO STAGIONI
+        </span>
+        <span class="menu__points">
+          . . . .
+        </span>
+        <span class="menu__cost">
+          55,68 USD
+        </span>
+        <span class="menu__descr">
+          Integer ullamcorper neque eu purus euismod
+        </span>
+    </a>
+    </li>
+
+    <li class="menu__item">
+      <a class="menu__link" href="" >
+        <span class="menu__name">
+          PIZZA QUATRO STAGIONI
+        </span>
+        <span class="menu__points">
+          . . . .
+        </span>
+        <span class="menu__cost">
+          55,68 USD
+        </span>
+        <span class="menu__descr">
+          Integer ullamcorper neque eu purus euismod
+        </span>
+    </a>
+    </li>
+
+    <li class="menu__item">
+      <a class="menu__link" href="" >
+        <span class="menu__name">
+          PIZZA QUATRO STAGIONI
+        </span>
+        <span class="menu__points">
+          . . . .
+        </span>
+        <span class="menu__cost">
+          55,68 USD
+        </span>
+        <span class="menu__descr">
+          Integer ullamcorper neque eu purus euismod
+        </span>
+    </a>
+    </li>
+
+    <li class="menu__item">
+      <a class="menu__link" href="" >
+        <span class="menu__name">
+          PIZZA QUATRO STAGIONI
+        </span>
+        <span class="menu__points">
+          . . . .
+        </span>
+        <span class="menu__cost">
+          55,68 USD
+        </span>
+        <span class="menu__descr">
+          Integer ullamcorper neque eu purus euismod
+        </span>
+    </a>
+    </li>
+
+    <li class="menu__item">
+      <a class="menu__link" href="" >
+        <span class="menu__name">
+          PIZZA QUATRO STAGIONI
+        </span>
+        <span class="menu__points">
+          . . . .
+        </span>
+        <span class="menu__cost">
+          55,68 USD
+        </span>
+        <span class="menu__descr">
+          Integer ullamcorper neque eu purus euismod
+        </span>
+    </a>
+    </li>
+
+    <li class="menu__item">
+      <a class="menu__link" href="" >
+        <span class="menu__name">
+          PIZZA QUATRO STAGIONI
+        </span>
+        <span class="menu__points">
+          . . . .
+        </span>
+        <span class="menu__cost">
+          55,68 USD
+        </span>
+        <span class="menu__descr">
+          Integer ullamcorper neque eu purus euismod
+        </span>
+    </a>
+    </li>
+
+    <li class="menu__item">
+      <a class="menu__link" href="" >
+        <span class="menu__name">
+          PIZZA QUATRO STAGIONI
+        </span>
+        <span class="menu__points">
+          . . . .
+        </span>
+        <span class="menu__cost">
+          55,68 USD
+        </span>
+        <span class="menu__descr">
+          Integer ullamcorper neque eu purus euismod
+        </span>
+    </a>
+    </li>
+
+    <li class="menu__item">
+      <a class="menu__link" href="" >
+        <span class="menu__name">
+          PIZZA QUATRO STAGIONI
+        </span>
+        <span class="menu__points">
+          . . . .
+        </span>
+        <span class="menu__cost">
+          55,68 USD
+        </span>
+        <span class="menu__descr">
+          Integer ullamcorper neque eu purus euismod
+        </span>
+    </a>
+    </li>
+  </ul>
+</div>
+</section>
+    </main>
+    <footer class="footer">
+
+</footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js?_v=20220319143859"></script>
+    <script src="js/app.min.js?_v=20220319143859"></script>
+</body>
+
+</html>
