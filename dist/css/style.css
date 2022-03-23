@@ -439,6 +439,9 @@ a {
 
 .menu {
   color: #000000;
+}
+
+.menu__title {
   text-align: center;
 }
 
@@ -447,6 +450,7 @@ a {
   font-size: 18px;
   line-height: 28px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .menu__buttons {
@@ -462,6 +466,50 @@ a {
 .menu__btn {
   background-color: transparent;
   border: none;
+  width: 120px;
+  height: 50px;
+  max-width: 100%;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #333333;
+  -webkit-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+.menu__btn:not(:last-child) {
+  border-right: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.menu__btn:hover {
+  color: #E8C300;
+}
+
+.menu__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px 80px;
+}
+
+.menu__name,
+.menu__points,
+.menu__cost {
+  font-family: Bunny;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.menu__descr {
+  display: block;
+  font-size: 12px;
+  color: rgba(51, 51, 51, 0.5);
 }
 
 .link-btn {
